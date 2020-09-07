@@ -1,0 +1,51 @@
+/* EJERRCICIO UNO  */
+
+.visto {
+    text-decoration: none;
+    color: grey;
+}
+.email{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* EJERCICIO DOS 
+  */
+h1{
+    text-align: center ;
+}
+
+p {
+    text-align: center;
+}
+
+.modo-boton
+{
+
+    font-size: 100px;
+}
+.claro {
+
+    color: black;
+}
+.fa-moon {
+    color: black;
+}
+
+.oscuro {
+    background-color: black;
+    color:white ; 
+
+}
+
+.fa-sun {
+    color: white;
+   
+}
+
+.peli{
+
+    display: none;
+}

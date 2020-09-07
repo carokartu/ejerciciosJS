@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> tarea js </title>
+</head>
+
+<body>
+
+    <!--
+    EJERCICIO UNO 
+    email (sin leer)
+Crear un documento html que tenga:
+
+un título h1 que diga: Mis emails
+un título h2 que diga: Bandeja de entrada
+una lista desordenada con 10 ítems con lorem ipsum 
+(4 o 5 palabras cada uno, no un párrafo entero)
+Inicialmente los ítems deben estar en negrita y con color negro.
+ndo se clickea uno de ellos, se debe sacarle la negrita 
+y ponerle un color gris (simulando que el email fue leído)
+     -->
+
+
+    <h1> Mis emails</h1>
+    <h2> Bandeja de entrada</h2>
+    <ul>
+        <li><a id="email1" class="email visto" href="#">Lorem ipsum dolor sit.</a></li>
+        <li><a id="email2" class=" email visto" href="#">Lorem ipsum dolor sit.</a></li>
+        <li><a id="email3" class="email visto" href="#"> Lorem ipsum dolor sit. </a></li>
+        <li><a id="email4" class="email visto" href="#">Lorem ipsum dolor sit</a></li>
+        <li><a id="email5" class="email visto" href="#">Lorem ipsum dolor sit.</a></li>
+        <li><a id="email6" class="email visto" href="#">Lorem ipsum dolor sit.</a></li>
+        <li><a id="email7" class="email visto" href="#"> Lorem ipsum dolor sit. </a></li>
+        <li><a id="email8" class="email visto" href="#">Lorem ipsum dolor sit</a></li>
+        <li><a id="email9" class="email visto" href="#">Lorem ipsum dolor sit.</a></li>
+        <li><a id="email10" class="email visto" href="#">Lorem ipsum dolor sit.</a></li>
+
+
+    </ul>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- modo-oscuro
+Crear un documento html con un título, un párrafo y un bótón con un ícono. 
+Centrar los elementos, cambiar los tamañas y tipografía del texto y tamaño del ícono. 
+Hacer que el body ocupe toda la pantalla. Al clickear el botón, debe alternar entre
+ modo oscuro y modo claro:
+
+modo oscuro: body con color de fondo negro, texto e ícono con color blanco, 
+ícono de sol
+modo claro: body con color de fondo blanco, texto e ícono con color negro, 
+ícono de luna -->
+
+<div class="ejercicio dos ">
+    <h2>
+        EJERCICIO DOS
+    </h2>
+</div>
+
+<h1> MODO CLARO Y MODO OSCURO </h1>
+
+<p> esto es un ejercicio de JavaScript </p>
+
+<button class="modo-boton"> <a id="sol" href=""><i class="fas fa-sun"></a></i>
+
+    <a id="luna" href=""><i class="fas fa-moon"></a></i>
+
+
+</button>
+
+<!-- NO ENCUENTRO EL ERROR QUE ME MUESTRA JS   no me funciona cambiar el modo -->
+
+
+<!-- EJERCICIO  3 -->
+
+<H1> barra de progreso </H1>
+
+<div>
+
+</div>
+
+
+<!-- 
+        EJERCICIO 4 -->
+<!-- peliculas
+Crear un documento html con 12 imágenes de posters de películas.
+Buscar imágenes de películas de 3 géneros
+(acción, aventura, ciencia ficción, comedia, etc),
+4 películas por género. Agregar al documento un botón
+por cada género, y un botón que diga Todas. Cuando
+se clickea el botón de un género, se tienen que mostrar
+sólo las películas correspondientes a ese género.
+Cuando se clickea el botón Todas se tienen que mostrar
+todas las películas. -->
+
+
+<div> 
+ 
+    <h1> PELICULAS </h1>
+
+<button id="retro" class="boton peliculas"> RETRO  </button>
+
+<img class="peli retro " src="./imagenes/retro1.jpg" alt="">
+<img class="peli retro" src="./imagenes/retro2.jpg" alt="">
+<img class="peli retro" src="./imagenes/retro3.jpg" alt="">
+<img class="peli retro" src="./imagenes/retro4.jpg" alt="">
+
+</div>
+
+<div>
+<button id="romanticas" class="boton peliculas"> ROMANTICAS </button>
+
+<img class="peli rom" src="./imagenes/rom1.jpg" alt="">
+<img class="peli rom" src="./imagenes/rom2.jpg" alt="">
+<img class="peli rom" src="./imagenes/rom3.jpg" alt="">
+<img class="peli rom" src="./imagenes/rom4.jpg" alt="">
+
+</div>
+
+<div>
+<button id="disneypixar" class="boton peliculas" > DISNEY PIXAR </button>
+ 
+<img  class="peli disney" src="./imagenes/disney1.jpg" alt="">
+<img class="peli disney" src="./imagenes/disney2.jpg" alt="">
+<img class="peli disney" src="./imagenes/disney3.jpg" alt="">
+<img class="peli disney" src="./imagenes/disney4.jpg" alt="">
+
+</div>
+
+<div> 
+    <button id="todas"> TODAS</button>
+</div>
+ 
+
+<!-- NO LOGRO QUE SE VEAN LAS FOTOS -->
+
+<script src="index.js"></script>
+</body>
+
+</html>
