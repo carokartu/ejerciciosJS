@@ -1,23 +1,25 @@
-// const email1 = document.getElementById("email1");
-// const email2 = document.getElementById("email2");
-// const email3 = document.getElementById("email3");
-// const email4 = document.getElementById("email4");
-// const email5 = document.getElementById("email5");
-// const email6 = document.getElementById("email6");
-// const email7 = document.getElementById("email7");
-// const email8 = document.getElementById("email8");
-// const email9 = document.getElementById("email9");
-// const email10 = document.getElementById("email10");
+// const nuevoEmail2 = document.querySelector("#email2");
+// const email3 = document.querySelector("#email3");
+// const email4 = document.querySelector("#email4");
+// const email5 = document.querySelector("#email5");
+// const email6 = document.querySelector("#email6");
+// const email7 = document.querySelector("#email7");
+// const email8 = document.querySelector("#email8");
+// const email9 = document.querySelector("#email9");
+// const email10 = document.querySelector("#email10");
 
+// console.log("email1")
+ 
 
-// email1.onclick = () => {
-//     email1.classList.remove("email");
-//     email1.classList.add("visto");
+// nuevoEmail1.onclick = () => {
+//   nuevoEmail1.classList.remove("email");
+//   nuevoEmail1.classList.add("visto");
+//     console.log(" esta haciendo click en el mail. ")
 //   };
 
-//   email2.onclick = () => {
-//     email2.classList.remove("email");
-//     email2.classList.add("visto");
+//   nuevoEmail2.onclick = () => {
+//     nuevoEmail2.classList.remove("email");
+//     nuevoEmail2.classList.add("visto");
 //   };
 //   email3.onclick = () => {
 //     email3.classList.remove("email");
@@ -52,58 +54,65 @@
 //     email10.classList.remove("email");
 //     email10.classList.add("visto");
 //   };
-//  const oscuro = document.getElementsByClassName(".oscuro")
-//  const claro = document.getElementsByClassName(".claro")
-//  const botonOscuro = document.querySelector("#sol")
-//  const botonClaro = document.querySelector("#luna")
 
-//  botonOscuro.onclick = () => {
+ const botonOscuro = document.querySelector("fa-moon")
+ const botonClaro = document.querySelector("fa-sun")
 
-//      oscuro.classList.add(".oscuro")
-//      claro.classList.remove(".claro")
+ botonOscuro.onclick = () => {
+
+     oscuro.classList.add("oscuro")
+     claro.classList.remove("claro")
+
+     console.log("esta haciendo click en el oscuro luna ")
     
-//  };
-
-//  botonClaro.onclick = () => {
-
-//      oscuro.classList.remove("oscuro")
-//      claro.classList.add("claro")
-//  }; 
-
-
- const peliculasRetro = document.getElementsByClassName("peli retro")
- const peliculasRomanticas= document.getElementsByClassName("peli rom")
- const peliculasDisneyPixar = document.getElementsByClassName("peli disney")
-
- const botonRetro = document.getElementById("retro")
- const botonRomanticas = document.getElementById("romanticas")
- const botonDisneyPixar = document.getElementById("disneypixar")
-
-
-const estiloOculto = document.querySelector(".peli")
-
- botonRetro.onclick =() => {
-
-  peliculasRetro.classList.remove("peli")
-  peliculasRomanticas.classList.add("peli")
-  peliculasDisneyPixar.classList.add("peli")
-
  };
 
- bontonRomanticas.onclick =() => {
-   peliculasRetro.classList.add("peli")
-   peliculasRomanticas.classList.remove("peli")
-   peliculasDisneyPixar.classList.add("peli")
-  
+ botonClaro.onclick = () => {
+
+     oscuro.classList.remove("oscuro")
+     claro.classList.add("claro")
+     console.log("esta haciendo click en el claro sol")
  }; 
 
- botonDisneyPixar.onclick =() => {
 
-  peliculasRetro.classList.add("peli")
-  peliculasRomanticas.classList.add("peli")
-  peliculasDisneyPixar.classList.remove("peli")
- }
+//  const peliculasRetro = document.querySelectorAll("peli-retro")
+//  const peliculasRomanticas= document.querySelectorAll("peli-rom")
+//  const peliculasDisneyPixar = document.querySelectorAll("peli-disney")
+
+// console.log("viendo pelis ")
+//  const botonRetro = document.querySelector("retro")
+//  const botonRomanticas = document.querySelector("romanticas")
+//  const botonDisneyPixar = document.querySelector("disneypixar")
+
+//  console.log("viendo botones")
+
+// const estiloOculto = document.querySelector(".peli")
+
+//  botonRetro.onclick =() => {
+
+//   peliculasRetro.classList.remove("peli")
+//   peliculasRomanticas.classList.add("peli")
+//   peliculasDisneyPixar.classList.add("peli")
+
+//   console.log("click en retro")
+
+//  };
+
+//  bontonRomanticas.onclick =() => {
+//    peliculasRetro.classList.add("peli")
+//    peliculasRomanticas.classList.remove("peli")
+//    peliculasDisneyPixar.classList.add("peli")
+  
+//    console.log("click en romanticas")
+//  }; 
+
+//  botonDisneyPixar.onclick =() => {
+
+//   peliculasRetro.classList.add("peli")
+//   peliculasRomanticas.classList.add("peli")
+//   peliculasDisneyPixar.classList.remove("peli")
+
+//   console.log("click en pi")
+//  }
 
 
-//  Uncaught TypeError: Cannot set property 'onclick' of null
-//     at VM19 index.js:85

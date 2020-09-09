@@ -3,6 +3,7 @@
 .visto {
     text-decoration: none;
     color: grey;
+    background-color: white;
 }
 .email{
     text-decoration: none;
@@ -44,6 +45,9 @@ p {
     color: white;
    
 }
+
+/* 
+EJERCICIO 4 */
 
 .peli{
 
